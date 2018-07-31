@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   
   get '/' do 
-    "Hello World"
+    "<h1>Hello World</h1>"
   end
   
   get '/name' do
@@ -15,4 +15,5 @@ class App < Sinatra::Base
   get '/favorite-song' do
     "My favorite song is Redbone"
   end
+
 end
